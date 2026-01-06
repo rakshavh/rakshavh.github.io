@@ -10,7 +10,6 @@ export function Providers({ children }: { children: ReactNode }) {
       attribute="class"
       storageKey="theme"
       defaultTheme="system"
-      suppressHydrationWarning
     >
       {children}
     </ThemeProvider>
