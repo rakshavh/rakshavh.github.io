@@ -29,9 +29,18 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'r/AskWomen',
     description:
-      'Advanced components and templates to craft beautiful websites.',
+      'Moderation and pseudo-anonymity as enablers of open, respectful dialogue. Findings from observing a subreddit where participants engage in conversations about health, identity, and gender-related issues.',
+    link: 'https://pro.motion-primitives.com/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+    id: 'project1',
+  },
+  {
+    name: 'Unbind',
+    description:
+      'Conducted participatory workshops with rural handicraft communities in India to examine how localized practices of artisans and intergenerational skill transmission inform sustainability and technology interventions.',
     link: 'https://pro.motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
@@ -49,77 +58,79 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'Moderation and pseudo-anonymity as enablers of open, respectful dialogue. Findings from observing a subreddit where participants engage in conversations about health, identity, and gender-related issues.',
+    title: 'r/AskWomen',
+    start: '',
+    end: '',
+    link: 'https://drive.google.com/file/d/1U0pDAxWM4Mz2QMbivAPXU-voYh0cB_WW/view?usp=sharing',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'Conducted participatory workshops with rural handicraft communities in India to examine how localized practices of artisans and intergenerational skill transmission inform sustainability and technology interventions.',
+    title: 'Unbind',
+    start: '',
+    end: '',
+    link: 'https://elastic-coneflower-ca0.notion.site/Workshops-at-Unbind-180d081bc09a80e6bbafe24427d6ede3?source=copy_link',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'Collaborated in a team of 5 with the Netflix UX Research team to evaluate media review and sharing workflows across production hubs, identifying opportunities to reduce errors and improve bulk processes.',
+    title: 'Netflix Workspaces (Winter 2023)',
+    start: '',
+    end: '',
+    link: 'https://www.rakshavh.com/netflixworkspace-updated',
     id: 'work3',
   },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
+    title: '"If we post, what will people think of us?”: Offline Norms, Online Engagement, and Unpacking Gendered Experiences in a Pakistani Facebook Tech Community',
+    description: 'Research Assistant, co-authored paper (in submission). A qualitative HCI research study on gendered participation, harm, and privacy in a Pakistani Facebook Tech Community.',
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: 'Challenges and design opportunities for online schooling in India',
     description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'Nikith Joshua DSouza, Samadrita Sarkar, Raksha Hungund, and Deepak Ranjan Padhi (2022). In Proceedings of the 12th Indian Conference on Human-Computer Interaction (IndiaHCI ’21). Association for Computing Machinery, New York, NY, USA, 94–98.',
+    link: 'https://dl.acm.org/doi/10.1145/3506469.3506484',
     uid: 'blog-2',
-  },
+  }]
+
+  export const RELATED_WORK: BlogPost[] = [
   {
-    title: 'What I learned from my first year of freelancing',
+    title: 'r/AskWomen',
     description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'Moderation and pseudo-anonymity as enablers of open, respectful dialogue. Findings from observing a subreddit where participants engage in conversations about health, identity, and gender-related issues.',
+    link: 'https://drive.google.com/file/d/1U0pDAxWM4Mz2QMbivAPXU-voYh0cB_WW/view?usp=drive_link',
     uid: 'blog-3',
   },
   {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
+    title: 'Unbind: Participatory design workshops with rural handicraft communities',
+    description: 'Conducted participatory workshops with rural handicraft communities in India to examine how localized practices of artisans and intergenerational skill transmission inform sustainability and technology interventions.',
+    link: 'https://www.notion.so/Workshops-at-Unbind-180d081bc09a80e6bbafe24427d6ede3',
     uid: 'blog-4',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    label: 'Github',
+    label: 'Resume',
     link: 'https://github.com/ibelick',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    label: 'Bluesky',
+    link: 'https://bsky.app/profile/rakshavh.bsky.social',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/raksha-vh',
   },
   {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'UX Portfolio',
+    link: 'https://www.rakshavh.com',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'rakshavh@umich.edu'

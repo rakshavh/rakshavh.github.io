@@ -2,6 +2,34 @@
 @plugin '@tailwindcss/typography';
 @custom-variant dark (&:is(.dark *));
 
+/* Custom Font Face Declarations */
+@font-face {
+  font-family: 'YourFontName';
+  src: url('/fonts/your-font-regular.woff2') format('woff2'),
+       url('/fonts/your-font-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YourFontName';
+  src: url('/fonts/your-font-medium.woff2') format('woff2'),
+       url('/fonts/your-font-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YourFontName';
+  src: url('/fonts/your-font-bold.woff2') format('woff2'),
+       url('/fonts/your-font-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
@@ -29,4 +57,5 @@
   --sh-jsxliterals: #7aa2f7;
   --sh-property: #73daca;
   --sh-entity: #e0af68;
+  --font-your-font-name: 'YourFontName', sans-serif;
 }
