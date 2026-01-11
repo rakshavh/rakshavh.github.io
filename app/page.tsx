@@ -302,7 +302,7 @@ export default function Personal() {
               <br /> University of Michigan, School of Information
             </h4>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Coursework: Qualitative and quantitative user research methods, voice user interactions; generative artificial intelligence in design
+              Coursework: Needs Assessment and Usability Evaluation; Online Communities; Fundamentals of Human Behavior; Data-Oriented Programming (Python); Accessibility in technology; Intro to AR/VR; Contextual Inquiry and Consulting Foundations; Generative AI & UX; Graphic Design in design
             </p>
           </div>
           <div>
