@@ -86,7 +86,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: '"If we post, what will people think of us?”: Offline Norms, Online Engagement, and Unpacking Gendered Experiences in a Pakistani Facebook Tech Community',
-    description: 'Research Assistant, co-authored paper (under review). A qualitative HCI research study on gendered participation, harm, and privacy in a Pakistani Facebook Tech Community.',
+    description: 'Hamza Naveed, Sheza Naveed, Raksha Hungund, Dr. Michaelanne Thomas. Research Assistant, first co-author (conditionally accepted for CHI 2026). A qualitative HCI research study on gendered participation, harm, and privacy in a Pakistani Facebook Tech Community.',
     link: '/blog/tech-aids',
     uid: 'blog-1',
   },
