@@ -86,7 +86,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: '"If we post, what will people think of us?”: Offline Norms, Online Engagement, and Unpacking Gendered Experiences in a Pakistani Facebook Tech Community',
-    description: 'Hamza Naveed, Sheza Naveed, Raksha Hungund, Dr. Michaelanne Thomas. Research Assistant, first co-author (conditionally accepted for CHI 2026). A qualitative HCI research study on gendered participation, harm, and privacy in a Pakistani Facebook Tech Community.',
+    description: 'Hamza Naveed*, Sheza Naveed*, Raksha Hungund*, Dr. Michaelanne Thomas (conditionally accepted for CHI 2026). A qualitative HCI research study on gendered participation, harm, and privacy in a Pakistani Facebook Tech Community.',
     link: '/blog/tech-aids',
     uid: 'blog-1',
   },
@@ -117,7 +117,7 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Resume',
-    link: 'https://github.com/ibelick',
+    link: 'https://drive.google.com/file/d/1xCMUtKqacg9Y9wzs66lHze2Lll6G6kqJ/view?usp=sharing',
   },
   {
     label: 'Bluesky',
