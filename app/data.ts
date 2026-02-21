@@ -78,7 +78,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Netflix Workspaces (Winter 2023)',
     start: '',
     end: '',
-    link: 'https://www.rakshavh.com/netflixworkspace-updated',
+    link: 'https://www.rakshavh.info/netflixworkspace-updated',
     id: 'work3',
   },
 ]
@@ -129,7 +129,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'UX Portfolio',
-    link: 'https://www.rakshavh.com',
+    link: 'https://www.rakshavh.info',
   },
 ]
 
