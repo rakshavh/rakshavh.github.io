@@ -140,7 +140,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          I am a recent HCI graduate from the University of Michigan where I conducted a qualitative study with Dr. Michaelanne Thomas on gendered participation, harm, and privacy in a peer to peer Facebook tech support group. I also have a background in architecture.
+          I am a recent HCI graduate from the University of Michigan where I conducted a qualitative study with Dr. Michaelanne Thomas on gendered participation, mirroring of offline norms, and privacy in a peer to peer Facebook tech support group. I also have a background in architecture.
           </p>
         </div>
       </motion.section>
