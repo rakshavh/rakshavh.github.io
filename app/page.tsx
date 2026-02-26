@@ -140,7 +140,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          I’m a UX Researcher from the University of Michigan where I led usability testing and qualitative research with a Y Combinator startup on AI website generation, and evaluated media management workflows for Netflix Workspaces in collaboration with the Netflix UX Research team. I studied HCI at the University of Michigan and have a background in architecture.
+          I’m a UX Designer and Researcher from the University of Michigan where I led usability testing and qualitative research with a Y Combinator startup on AI website generation, and evaluated media management workflows for Netflix Workspaces in collaboration with the Netflix UX Research team. I studied HCI at the University of Michigan and have a background in architecture.
           </p>
         </div>
       </motion.section>
