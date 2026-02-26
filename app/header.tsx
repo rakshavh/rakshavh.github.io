@@ -20,7 +20,7 @@ export function Header() {
             Raksha Hungund
           </Link>
           <p className="text-zinc-600 dark:text-zinc-500">
-            Open to Research Assistant opportunities
+            Open to UX Design and UX Research roles
           </p>
         </div>
       </div>

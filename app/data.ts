@@ -85,7 +85,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: 'I vibe coded a web app called insight mapper to convert transcripts into themed notes and .csv files',
-    title: 'Role GenAI tools in UX Research',
+    title: 'Role of GenAI tools in UX',
     start: '',
     end: '',
     link: 'https://insight-mapper-test.vercel.app/',
