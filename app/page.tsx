@@ -289,7 +289,7 @@ export default function Personal() {
               SI 622: Needs Assessment and Usability Evaluation
             </h4>
             <p className="text-zinc-600 dark:text-zinc-400">
-              Winter 2024, with Dr. Joyojeet Pal and Dr. Lei Zhang (then a PhD student)
+              Winter 2024, with Dr. Joyojeet Pal and Lei Zhang
             </p>
           </div>
         </div>
