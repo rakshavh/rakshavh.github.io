@@ -140,8 +140,51 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          I am a recent HCI graduate from the University of Michigan where I conducted a qualitative study with Dr. Michaelanne Thomas on gendered participation, mirroring of offline norms, and privacy in a peer to peer Facebook tech support group. I also have a background in architecture.
+          I’m a UX Researcher from the University of Michigan where I led usability testing and qualitative research with a Y Combinator startup on AI website generation, and evaluated media management workflows for Netflix Workspaces in collaboration with the Netflix UX Research team. I studied HCI at the University of Michigan and have a background in architecture.
           </p>
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          {PROJECTS.map((project) => (
+            <div key={project.id} className="space-y-2">
+              <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="aspect-video w-full rounded-xl object-cover"
+                  />
+                ) : (
+                  <ProjectVideo src={project.video} />
+                )}
+              </div>
+              <div className="px-1">
+                {project.link ? (
+                  <a
+                    className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+                    href={project.link}
+                    target="_blank"
+                  >
+                    {project.name}
+                    <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                  </a>
+                ) : (
+                  <span className="font-base inline-block font-[450] text-zinc-900 dark:text-zinc-50">
+                    {project.name}
+                  </span>
+                )}
+                <p className="text-base text-zinc-600 dark:text-zinc-400">
+                  {project.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </motion.section>
 
@@ -150,7 +193,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Research Work</h3>
+        <h3 className="mb-3 text-lg font-medium">Publications</h3>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
@@ -226,42 +269,6 @@ export default function Personal() {
         </div>
       </motion.section>
 
-     {/* {<motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <h3 className="mb-3 text-lg font-medium">Related Work</h3>
-        <div className="flex flex-col space-y-0">
-          <AnimatedBackground
-            enableHover
-            className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
-            transition={{
-              type: 'spring',
-              bounce: 0,
-              duration: 0.2,
-            }}
-          >
-            {RELATED_WORK.map((post) => (
-              <Link
-                key={post.uid}
-                className="-mx-3 rounded-xl px-3 py-3"
-                href={post.link}
-                data-id={post.uid}
-              >
-                <div className="flex flex-col space-y-1">
-                  <h4 className="font-normal dark:text-zinc-100">
-                    {post.title}
-                  </h4>
-                  <p className="text-zinc-500 dark:text-zinc-400">
-                    {post.description}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </AnimatedBackground>
-        </div>
-      </motion.section>}*/}
-
       <motion.section
         id="teaching"
         variants={VARIANTS_SECTION}
@@ -316,37 +323,6 @@ export default function Personal() {
         </div>
       </motion.section>
 
-      {/*<motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {PROJECTS.map((project) => (
-            <div key={project.id} className="space-y-2">
-              <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
-                <ProjectVideo src={project.video} />
-              </div>
-              <div className="px-1">
-                <a
-                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
-                  href={project.link}
-                  target="_blank"
-                >
-                  {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
-                </a>
-                <p className="text-base text-zinc-600 dark:text-zinc-400">
-                  {project.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </motion.section>
-      */}
-
- 
       <motion.section
         id="connect"
         variants={VARIANTS_SECTION}
